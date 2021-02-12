@@ -18,7 +18,7 @@ const SearchForm = () => {
       <form action="" className="search-form">
         <div className="form-control">
           <label htmlFor="name">search your favorite cocktail</label>
-          <input ref={inputSearchRef} onChange={getCocktail} type="text" name="name" id="name" placeholder="type here..."/>
+          <input ref={inputSearchRef} onChange={getCocktail} type="text" name="name" id="name" />
         </div>
       </form>
     </section>
