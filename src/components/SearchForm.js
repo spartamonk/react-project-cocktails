@@ -14,11 +14,18 @@ const SearchForm = () => {
   },[])
 
   return (
-    <section className="section search">
-      <form action="" className="search-form">
-        <div className="form-control">
-          <label htmlFor="name">search your favorite cocktail</label>
-          <input ref={inputSearchRef} onChange={getCocktail} type="text" name="name" id="name" />
+    <section className='section search'>
+      <form action='' className='search-form'>
+        <div className='form-control'>
+          <label htmlFor='name'>search your favorite cocktail</label>
+          <input
+            ref={inputSearchRef}
+            onChange={getCocktail}
+            type='text'
+            name='name'
+            id='name'
+            placeholder='type here...'
+          />
         </div>
       </form>
     </section>
